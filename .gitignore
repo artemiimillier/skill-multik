@@ -1,0 +1,21 @@
+# зависимости и сборка
+node_modules
+**/node_modules
+.remotion/
+out/
+**/out/
+
+# медиа: рендеры и голоса не храним, кроме превью в docs/
+*.mp4
+*.mov
+*.wav
+*.mp3
+!docs/*.mp4
+.claude/skills/multik/kit/public/*
+!.claude/skills/multik/kit/public/.gitkeep
+
+# служебное
+.DS_Store
+__pycache__/
+*.pyc
+.env

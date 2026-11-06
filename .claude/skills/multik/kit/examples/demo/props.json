@@ -1,0 +1,460 @@
+{
+ "words": [
+  {
+   "text": "Все",
+   "accent": false,
+   "chunk": 0,
+   "start": 0.35,
+   "end": 0.562
+  },
+  {
+   "text": "хотят",
+   "accent": false,
+   "chunk": 0,
+   "start": 0.592,
+   "end": 0.921
+  },
+  {
+   "text": "объясняющие",
+   "accent": false,
+   "chunk": 0,
+   "start": 0.95,
+   "end": 1.671
+  },
+  {
+   "text": "мультики,",
+   "accent": true,
+   "chunk": 0,
+   "start": 1.7,
+   "end": 2.183
+  },
+  {
+   "text": "но",
+   "accent": false,
+   "chunk": 1,
+   "start": 2.346,
+   "end": 2.521
+  },
+  {
+   "text": "никто",
+   "accent": false,
+   "chunk": 1,
+   "start": 2.55,
+   "end": 2.879
+  },
+  {
+   "text": "не",
+   "accent": false,
+   "chunk": 1,
+   "start": 2.908,
+   "end": 3.083
+  },
+  {
+   "text": "говорит,",
+   "accent": false,
+   "chunk": 1,
+   "start": 3.113,
+   "end": 3.558
+  },
+  {
+   "text": "как",
+   "accent": true,
+   "chunk": 1,
+   "start": 3.721,
+   "end": 3.933
+  },
+  {
+   "text": "их",
+   "accent": false,
+   "chunk": 1,
+   "start": 3.963,
+   "end": 4.138
+  },
+  {
+   "text": "собрать.",
+   "accent": false,
+   "chunk": 1,
+   "start": 4.167,
+   "end": 4.571
+  },
+  {
+   "text": "Вот",
+   "accent": false,
+   "chunk": 2,
+   "start": 4.883,
+   "end": 5.096
+  },
+  {
+   "text": "три",
+   "accent": true,
+   "chunk": 2,
+   "start": 5.125,
+   "end": 5.338
+  },
+  {
+   "text": "шага.",
+   "accent": false,
+   "chunk": 2,
+   "start": 5.367,
+   "end": 5.658
+  },
+  {
+   "text": "Первый:",
+   "accent": false,
+   "chunk": 3,
+   "start": 5.971,
+   "end": 6.338
+  },
+  {
+   "text": "положи",
+   "accent": false,
+   "chunk": 3,
+   "start": 6.65,
+   "end": 7.058
+  },
+  {
+   "text": "скилл",
+   "accent": true,
+   "chunk": 3,
+   "start": 7.088,
+   "end": 7.375
+  },
+  {
+   "text": "в",
+   "accent": false,
+   "chunk": 4,
+   "start": 7.404,
+   "end": 7.542
+  },
+  {
+   "text": "папку",
+   "accent": false,
+   "chunk": 4,
+   "start": 7.571,
+   "end": 7.9
+  },
+  {
+   "text": "своего",
+   "accent": false,
+   "chunk": 4,
+   "start": 7.929,
+   "end": 8.338
+  },
+  {
+   "text": "проекта.",
+   "accent": true,
+   "chunk": 4,
+   "start": 8.367,
+   "end": 8.812
+  },
+  {
+   "text": "Второй:",
+   "accent": false,
+   "chunk": 5,
+   "start": 9.125,
+   "end": 9.492
+  },
+  {
+   "text": "напиши",
+   "accent": false,
+   "chunk": 5,
+   "start": 9.804,
+   "end": 10.213
+  },
+  {
+   "text": "Claude",
+   "accent": false,
+   "chunk": 5,
+   "start": 10.242,
+   "end": 10.65
+  },
+  {
+   "text": "Code",
+   "accent": false,
+   "chunk": 5,
+   "start": 10.679,
+   "end": 10.971
+  },
+  {
+   "text": "одну",
+   "accent": true,
+   "chunk": 5,
+   "start": 11.0,
+   "end": 11.292
+  },
+  {
+   "text": "строку —",
+   "accent": false,
+   "chunk": 5,
+   "start": 11.321,
+   "end": 11.688
+  },
+  {
+   "text": "«сделай",
+   "accent": false,
+   "chunk": 6,
+   "start": 12.0,
+   "end": 12.367
+  },
+  {
+   "text": "мультик",
+   "accent": false,
+   "chunk": 6,
+   "start": 12.396,
+   "end": 12.8
+  },
+  {
+   "text": "по",
+   "accent": false,
+   "chunk": 6,
+   "start": 12.829,
+   "end": 13.004
+  },
+  {
+   "text": "этому",
+   "accent": false,
+   "chunk": 6,
+   "start": 13.033,
+   "end": 13.404
+  },
+  {
+   "text": "тексту».",
+   "accent": true,
+   "chunk": 6,
+   "start": 13.433,
+   "end": 13.8
+  },
+  {
+   "text": "Третий:",
+   "accent": false,
+   "chunk": 7,
+   "start": 14.113,
+   "end": 14.479
+  },
+  {
+   "text": "он",
+   "accent": false,
+   "chunk": 7,
+   "start": 14.792,
+   "end": 14.967
+  },
+  {
+   "text": "разложит",
+   "accent": false,
+   "chunk": 7,
+   "start": 14.996,
+   "end": 15.479
+  },
+  {
+   "text": "текст",
+   "accent": false,
+   "chunk": 7,
+   "start": 15.508,
+   "end": 15.796
+  },
+  {
+   "text": "по",
+   "accent": false,
+   "chunk": 7,
+   "start": 15.825,
+   "end": 16.0
+  },
+  {
+   "text": "словам,",
+   "accent": true,
+   "chunk": 7,
+   "start": 16.029,
+   "end": 16.396
+  },
+  {
+   "text": "нарисует",
+   "accent": false,
+   "chunk": 8,
+   "start": 16.558,
+   "end": 17.083
+  },
+  {
+   "text": "каждую",
+   "accent": false,
+   "chunk": 8,
+   "start": 17.113,
+   "end": 17.521
+  },
+  {
+   "text": "сцену",
+   "accent": true,
+   "chunk": 8,
+   "start": 17.55,
+   "end": 17.879
+  },
+  {
+   "text": "и",
+   "accent": false,
+   "chunk": 9,
+   "start": 17.908,
+   "end": 18.046
+  },
+  {
+   "text": "сам",
+   "accent": false,
+   "chunk": 9,
+   "start": 18.075,
+   "end": 18.288
+  },
+  {
+   "text": "проверит",
+   "accent": true,
+   "chunk": 9,
+   "start": 18.317,
+   "end": 18.8
+  },
+  {
+   "text": "кадры.",
+   "accent": false,
+   "chunk": 9,
+   "start": 18.829,
+   "end": 19.158
+  },
+  {
+   "text": "Вот",
+   "accent": false,
+   "chunk": 10,
+   "start": 19.471,
+   "end": 19.683
+  },
+  {
+   "text": "и",
+   "accent": false,
+   "chunk": 10,
+   "start": 19.713,
+   "end": 19.85
+  },
+  {
+   "text": "всё.",
+   "accent": true,
+   "chunk": 10,
+   "start": 19.879,
+   "end": 20.092
+  },
+  {
+   "text": "Ставь",
+   "accent": false,
+   "chunk": 11,
+   "start": 20.404,
+   "end": 20.692
+  },
+  {
+   "text": "и",
+   "accent": false,
+   "chunk": 11,
+   "start": 20.721,
+   "end": 20.858
+  },
+  {
+   "text": "пробуй.",
+   "accent": true,
+   "chunk": 11,
+   "start": 20.888,
+   "end": 21.254
+  }
+ ],
+ "chunks": [
+  {
+   "first": 0,
+   "last": 3
+  },
+  {
+   "first": 4,
+   "last": 10
+  },
+  {
+   "first": 11,
+   "last": 13
+  },
+  {
+   "first": 14,
+   "last": 16
+  },
+  {
+   "first": 17,
+   "last": 20
+  },
+  {
+   "first": 21,
+   "last": 26
+  },
+  {
+   "first": 27,
+   "last": 31
+  },
+  {
+   "first": 32,
+   "last": 37
+  },
+  {
+   "first": 38,
+   "last": 40
+  },
+  {
+   "first": 41,
+   "last": 44
+  },
+  {
+   "first": 45,
+   "last": 47
+  },
+  {
+   "first": 48,
+   "last": 50
+  }
+ ],
+ "cues": {
+  "hook": 0.35,
+  "obyasn": 0.95,
+  "mult": 1.7,
+  "nikto": 2.55,
+  "govorit": 3.113,
+  "kak": 3.721,
+  "sobrat": 4.167,
+  "vot": 4.883,
+  "tri": 5.125,
+  "shaga": 5.367,
+  "p1": 5.971,
+  "polozhi": 6.65,
+  "skill": 7.088,
+  "papku": 7.571,
+  "svoego": 7.929,
+  "proekta": 8.367,
+  "p2": 9.125,
+  "napishi": 9.804,
+  "claude": 10.242,
+  "odnu": 11.0,
+  "stroku": 11.321,
+  "sdelai": 12.0,
+  "multik": 12.396,
+  "po": 12.829,
+  "etomu": 13.033,
+  "tekstu": 13.433,
+  "p3": 14.113,
+  "razlozhit": 14.996,
+  "tekst": 15.508,
+  "slovam": 16.029,
+  "narisuet": 16.558,
+  "kazhduyu": 17.113,
+  "scenu": 17.55,
+  "sam": 18.075,
+  "proverit": 18.317,
+  "kadry": 18.829,
+  "vot2": 19.471,
+  "vsyo": 19.879,
+  "stav": 20.404,
+  "probui": 20.888
+ },
+ "amplitude": [],
+ "durationInFrames": 675,
+ "audioDuration": 21.567,
+ "fps": 30,
+ "audio": null,
+ "sfx": null,
+ "sfxVolume": 0.6
+}

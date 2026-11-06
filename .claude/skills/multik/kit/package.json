@@ -1,0 +1,27 @@
+{
+  "name": "multik-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Плотный объясняющий мультролик 9:16 на Remotion: событие под каждое слово",
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "demo": "remotion render src/index.ts Demo out/demo.mp4",
+    "demo:still": "remotion still src/index.ts Demo out/demo.png --frame=330",
+    "stills": "node scripts/stills.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.526",
+    "@remotion/cli": "4.0.526",
+    "@remotion/google-fonts": "4.0.526",
+    "@remotion/renderer": "4.0.526",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.526"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
