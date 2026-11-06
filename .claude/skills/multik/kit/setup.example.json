@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "lang": null,
+  "brand": null,
+  "steps": {
+    "lang": false,
+    "mcp": false,
+    "niche": false,
+    "style": false,
+    "hero": false,
+    "voice": false,
+    "env": false,
+    "telegram": false,
+    "done": false
+  },
+  "piratex": {"connected": false, "credits": null, "checked_at": null},
+  "niche": {"profile": null, "summary": null, "niches": []},
+  "style": {"source": null, "file": "style/STYLE.md", "notes": null},
+  "hero": {"kind": "mascot", "photo": null, "atlas": null, "rig": null},
+  "voice": {"mode": null, "voice_id": null, "model": "eleven_multilingual_v2"},
+  "env": {"node": null, "ffmpeg": null, "whisper": false, "npm_installed": false},
+  "telegram": {"enabled": false, "chat_id": null},
+  "films": []
+}

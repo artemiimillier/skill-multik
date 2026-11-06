@@ -1,10 +1,12 @@
-// Лист поз героя: все позы рядом с подписями. Композиция «Poses» — для подбора трека и проверки своего героя.
+// Лист поз героя: все позы рядом с подписями. Композиция «Poses» — для подбора трека и проверки своего героя
+// (если в src/hero/current.ts подключён атлас — показывает его).
 import React from 'react';
 import {AbsoluteFill, useCurrentFrame, useVideoConfig} from 'remotion';
 import {GridPaper} from '../lib/frame';
 import {FONT, T} from '../theme';
 import {useFontsReady} from '../Film';
 import {Mascot, POSES} from './Mascot';
+import {HERO} from './current';
 
 const RU: Record<string, string> = {
   neutral: 'спокойно',
@@ -36,7 +38,7 @@ export const PoseSheet = () => {
           <div key={pose} style={{position: 'absolute', left: (i % cols) * cw, top, width: cw, height: ch, overflow: 'hidden'}}>
             <div style={{position: 'absolute', inset: 0, filter: 'drop-shadow(4px 0 0 #fff) drop-shadow(-4px 0 0 #fff) drop-shadow(0 4px 0 #fff) drop-shadow(0 -4px 0 #fff)'}}>
               <div style={{position: 'absolute', left: -((i % cols) * cw), top: -top}}>
-                <Mascot t={t} fps={fps} pose={pose} prev={pose} k={1} words={[]} amp={[]} x={cx} y={top + 250} scale={0.52} />
+                {HERO ? HERO({t, fps, pose, prev: pose, k: 1, words: [], amp: [], x: cx, y: top + 250, scale: 0.52}) : <Mascot t={t} fps={fps} pose={pose} prev={pose} k={1} words={[]} amp={[]} x={cx} y={top + 250} scale={0.52} />}
               </div>
             </div>
             <div style={{position: 'absolute', left: 16, top: 14, fontFamily: FONT.mono, fontSize: 24, color: T.ink, background: '#fff', padding: '2px 10px', borderRadius: 8, border: `2px solid ${T.ink}`}}>{pose}</div>

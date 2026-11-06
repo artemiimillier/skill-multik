@@ -5,6 +5,7 @@ import {AbsoluteFill, Html5Audio, cancelRender, continueRender, delayRender, sta
 import {Badge, Caption, ChalkDefs, Chalkboard, GridPaper, Halftone} from './lib/frame';
 import {lin, mix, pop} from './lib/motion';
 import {HeroSticker, type HeroRender, type Track} from './hero/HeroSticker';
+import {HERO} from './hero/current';
 import {T, fontsReady} from './theme';
 import {FilmContext, strictCues, type FilmProps} from './types';
 
@@ -32,6 +33,7 @@ export const Film = ({p, track, boardUntil = 0, shutters = [], flashes = [], glo
   flashes?: number[] | ((c: Record<string, number>) => number[]);
   /** Свечение за героем 0..1 («самое интересное», финал). */
   glow?: (t: number, c: Record<string, number>) => number;
+  /** Свой герой для этого ролика; по умолчанию — герой студии из src/hero/current.ts. */
   hero?: HeroRender;
   children: React.ReactNode;
 }) => {
@@ -52,7 +54,7 @@ export const Film = ({p, track, boardUntil = 0, shutters = [], flashes = [], glo
         <ChalkDefs />
         {children}
         <Caption p={p} t={t} light={onBoard} />
-        <HeroSticker t={t} fps={fps} track={tr} words={p.words} amp={p.amplitude} glow={glow ? glow(t, c) : 0} render={hero} />
+        <HeroSticker t={t} fps={fps} track={tr} words={p.words} amp={p.amplitude} glow={glow ? glow(t, c) : 0} render={hero ?? HERO} />
         {sh.map((h, i) => {
           const dur = h.dur ?? 0.32;
           const hold = h.hold ?? 0.12;

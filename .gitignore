@@ -14,6 +14,9 @@ out/
 .claude/skills/multik/kit/public/*
 !.claude/skills/multik/kit/public/.gitkeep
 
+# личное состояние студии
+setup.json
+
 # служебное
 .DS_Store
 __pycache__/

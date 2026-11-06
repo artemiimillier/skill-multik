@@ -1,5 +1,10 @@
 node_modules
 out/
 .remotion/
+# секреты и личное: ключи, chat_id, исходное фото лица
+.env
+setup.json
+public/hero/source/
+public/hero/photo*
 public/**/*.wav
 public/**/*.mp3
